@@ -1,0 +1,709 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+   
+}
+.ipod-section{
+    padding-left: 32rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(2rem);
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+.nav-list-mobile{
+    display: none;
+}
+.nav-link{
+    font-size: 1.4rem;
+    color:#ffffff;
+    padding: 0 1rem;
+    transition: opacity 0.5s;
+}
+.nav-link:hover{
+    opacity:0.7;
+}
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("applelogo.svg") center no-repeat;
+
+}
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("search.svg") center no-repeat;
+
+}
+.nav-link-bag{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("bag.svg") center no-repeat;
+
+}
+.iphone-11-pro{
+        background: url("firstsectionimage.jpg") center no-repeat;
+        margin-top: 4.4rem;
+}
+
+
+.title{
+    color: #000;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -0.005rem;
+}
+.title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 600;
+}
+.title-price{
+    font-size: 2rem;
+    color: #3b3838;
+    margin-top: 0.68rem;
+    font-weight: 500;
+}
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #0066cc;
+    font-size: 2.1rem;
+    display: inline-block;
+    font-weight: 500;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 1.5px solid #0066cc;
+}
+.iphone-11{
+    background:url(iphone14proImage.jpg) ;
+}
+.text-light{
+    color:#ffffffff;
+    letter-spacing: .001rem;
+   }
+   .cta-link darker:hover{
+    border-bottom-color:#0070c9 ;
+   }
+   .watch{
+    background: url("iphone14image.jpg");
+   }
+   .title-heading-watch{
+    height: 7.8rem;
+   
+    background-size: auto 7.8rem;
+    margin-top: 1.6rem;
+
+   }
+
+   .hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6rem solid #ffffff;
+    border-top: 0.6rem solid #ffffff;
+    
+}
+.smart{
+    height:58rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6rem solid #ffffff;
+    border-top: 0.6rem solid #ffffff;
+}
+.iphone-11-pro{
+    border-top: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mixad-section{
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-template-columns: 50% 50%;
+    border: .5rem solid #ffffff;
+}
+.mixad-section section{
+    border: .5rem solid #ffffff;
+   
+
+}
+.watch1{
+    background: url("watch1image.jpg") center no-repeat;
+    
+}
+.watch2{
+    background: url("watch2image.jpg") center no-repeat;
+}
+.laptop{
+    background: url("laptopimage.jpg") center no-repeat;
+}
+.tv{
+    background: url("tvremoteimage.jpg") center no-repeat;
+}
+.airpods{
+    background: url("airpodimage.jpg") center no-repeat;
+}
+.apple-card{
+    background: url("applecardimage.jpg") center no-repeat;
+}
+.smart h2 {
+    font-size: 3rem;
+     text-transform: uppercase;
+  }
+  span .fa-apple{
+    padding-right: .15rem;
+  }
+  .smart h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .mySlides {display: none;}
+  iframe {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  
+  
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+iframe{
+    width: 100%;
+    height:58rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6rem solid #ffffff;
+    border-top: 0.6rem solid #ffffff;
+}
+footer{
+    width: 100%;
+    background-color: #f5f5f7;
+    /* padding: 1.5rem 20rem; */
+}
+.description{
+    max-width: 130ch;
+    padding: 1.5rem 20rem; 
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+.description p{
+    padding: .5rem 0;
+}
+.footer-detail{
+    padding: 1.5rem 20rem;
+    display: flex;
+   justify-content: space-between;
+   border-top: .5px solid rgb(105, 104, 104);
+} 
+
+.footer-detail ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #3b3838;
+}
+.footer-detail ul{
+    line-height: 2.5rem;
+} 
+
+.footer-detail ul p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(105, 102, 102);
+    
+}
+.footer-detail ul li a{
+    color: #3b3838;
+    text-decoration: none;
+}
+.footer-detail button{
+    border: none;
+    display: none;
+}
+.footer-detail button:hover{
+    cursor: pointer;
+}
+.footer-detail ul li a:hover{
+    text-decoration: underline;
+}
+.copyright{
+       padding: 1.5rem 20rem; 
+    font-size: 1.3rem;
+    font-weight: 400;
+     color: #5c5b5b;
+}
+
+.upper span{
+    padding-right: .5rem;
+}
+.copyright a:hover{
+    text-decoration: underline;
+}
+.lower :nth-child(2){
+    font-weight: 500;
+}
+.lower a{
+    color:#5c5b5b ;
+}
+.lower{
+    border-top: .5px solid rgb(107, 105, 105);
+}
+
+
+@media screen and (max-width:1068px){
+    .iphone-11-pro{
+        background: url("firstsectionimage.jpg") center no-repeat;
+       
+}
+.iphone-11{
+    background:url("iphone14proImage.jpg") ;
+}
+.watch{
+    background: url("iphone14image.jpg");
+   }
+  
+ .hero{
+    height: 65rem;
+    background-size:auto 69.8rem;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  } 
+  .title-heading{
+    font-size: 4.4rem;
+  }  
+  .title-sub-heading{
+    font-size: 2.4rem;
+  }
+  .cta-link:nth-child(2){
+    margin-left: 2rem;
+  }
+  .title-heading-watch{
+    height: 6.2rem;
+    background: url();
+    background-size: auto 6.2rem;
+  }
+  .smart{
+    height:50rem;
+    background-size: auto 69.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.smart h2 {
+    font-size: 2.8rem;
+    
+  }
+  span .fa-apple{
+    padding-right: .13rem;
+  }
+  .smart h3{
+    font-size: 1.2rem;
+    
+  }
+}
+@media screen and (max-width:850px){
+
+     header{
+        height: 4.8rem ;
+        transition: background 0.36s cubic-bezier(0.32 ,0.08, 0.24, 1),
+                    height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
+    }
+    header.container{
+        padding: 0;
+    }
+    .iphone-11-pro{
+        margin-top: 4.8rem;
+    }
+    
+    .nav-list{
+        margin-top: 0;
+    }
+    .nav-list-mobile{
+        display: flex;
+    }
+    .nav-item{
+        width: 4.8rem;
+        height: 4.8rem;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-items-hidden{
+        display: none;
+    }
+    .mobile-menu{
+        position:relative;
+        z-index: 1500;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .line{
+        position: absolute;
+        width: 1.7rem;
+        height: 1px;
+        background-color: #fff;
+        transition: margin-top 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+    .line-top{
+        margin-top: 3px;
+    }
+    .line-bottom{
+        margin-top: -1.2rem;
+    }
+    .active .line-top{
+        margin-top: 0;
+        transform: rotate(45deg);
+        transition: transform 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+    .active .line-bottom{
+        margin-top: 0;
+        transform: rotate(-45deg);
+        transition: transform 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+    header.active{
+        height: 100%;
+        background-color: #000;
+
+    }
+    .nav-link-apple{
+        width: 1.8rem;
+        height: 4.8rem;
+        position: relative;
+        z-index: 1500;
+    }
+    .nav-link-bag{
+        width: 1.6rem;
+        height: 4.8rem;
+        transition: opacity 3s;
+    }
+    .nav{
+        position: relative;
+    }
+    .nav-link{
+        font-size: 1.7rem;
+        margin:auto 0;
+        padding: 0;
+       
+    }
+    .nav-list-larger{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        display: block;
+        padding: 10.5rem 5rem;
+        z-index: 1000;
+        box-sizing: border-box;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 3s;
+    }
+    .active .nav-list-larger{
+        width: 100%;
+        height: 100vh;
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-list-larger .nav-item{
+        width: 100%;
+        justify-content: flex-start;
+        border-bottom: 2px solid rgba(255, 255, 2550, 0.1);
+    }
+    .nav-list-larger .nav-item:nth-child(12){
+        border-bottom: none;
+    }
+    .active .nav-list-larger .nav-item{
+        animation: fade 1s ease-in;
+    }
+    @keyframes fade {
+        from{
+            opacity: 0;
+        }
+        to{
+           opacity: 1; 
+        }
+        
+    }
+    .footer-detail{
+        flex-direction: column;
+        
+    }
+    .lineElement{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .footer-detail ul li{
+        display: none;
+    }
+    .footer-detail ul{
+        border-bottom: .5px solid rgb(175, 172, 172);
+    }
+   
+    .footer-detail button{
+        display: block;
+        font-size: 1.5rem;
+        color: #5c5b5b;
+        background-color: #f5f5f7;
+    }
+    .copyright{
+        padding: 1.5rem 1.5rem;
+    
+ }
+ .footer-detail{
+    padding: 1.5rem 1.5rem;
+   
+}
+.description{
+    max-width: 130ch;
+    padding: 1.5rem 1.5rem; 
+    font-size: 1.2rem;
+    font-weight: 500;
+ 
+}
+.lower{
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+}
+@media screen and (max-width:735px){
+    .mixad-section{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+ .hero{
+    height: 50rem;
+    background-size:auto 50.8rem;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  } 
+  .title{
+    font-size: 3.2rem;
+  }
+  .title-heading{
+    font-size: 3.2rem;
+  }  
+  .title-sub-heading{
+    font-size: 1.9rem;
+  }
+  .title-price{
+    font-size: 1.4rem;
+  }
+  .cta{
+    margin-top: 0.7rem;
+  }
+  .cta-link{
+    font-size: 1.9rem;
+  }
+  .smart{
+    height:45rem;
+    background-size: auto 60.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.smart h2 {
+    font-size: 2.3rem;
+    
+  }
+ 
+  .smart h3{
+    font-size: 1.2rem;
+    
+  }
+  .copyright{
+    
+ font-size: 1rem;
+ 
+}
+}
+
+@media screen and (max-width:535px){
+    .hero{
+        height: 40rem;
+        background-size:auto 40.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+      }
+      .title-heading{
+        font-size: 3.4rem;
+      }  
+      .title-sub-heading{
+        font-size: 1.9rem;
+      }
+     
+      .title-price{
+        font-size: 1.2rem;
+      }
+      .cta{
+        margin-top: 0.5rem;
+      }
+      .cta-link{
+        font-size: 1.5rem;
+      }
+      .smart{
+        height:40rem;
+        background-size: auto 55.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .smart h2 {
+        font-size: 2rem;
+        
+      }
+     
+      .smart h3{
+        font-size: 1rem;
+        
+      }
+      .copyright{
+    
+        font-size: .8rem;
+        
+}
+
+}
+@media screen and (max-width:335px){
+    .hero{
+        height: 30rem;
+        background-size:auto 30.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+      }
+      .title-heading{
+        font-size: 2.4rem;
+      }  
+      .title-sub-heading{
+        font-size: 1.5rem;
+      }
+     
+      .title-price{
+        font-size: 1rem;
+      }
+      .cta{
+        margin-top: 0.3rem;
+      }
+      .cta-link{
+        font-size: 1rem;
+      }
+      .smart{
+        height:35rem;
+        background-size: auto 45.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .smart h2 {
+        font-size: 1.8rem;
+        
+      }
+     
+      .smart h3{
+        font-size: .9rem;
+        
+      }
+      .copyright{
+    
+        font-size: .6rem;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
